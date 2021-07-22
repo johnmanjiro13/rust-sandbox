@@ -14,6 +14,10 @@ pub fn add_two(a: i32) -> i32 {
     a + 2
 }
 
+fn internal_adder(a: i32, b: i32) -> i32 {
+    a + b
+}
+
 pub fn greeting(name: &str) -> String {
     format!("Hello {}!", name)
 }
@@ -94,6 +98,11 @@ mod tests {
     #[test]
     fn it_adds_two() {
         assert_eq!(4, add_two(2));
+    }
+
+    #[test]
+    fn internal() {
+        assert_eq!(4, internal_adder(2, 2));
     }
 
     #[test]
