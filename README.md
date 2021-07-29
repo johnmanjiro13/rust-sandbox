@@ -1,3 +1,5 @@
 # rust-sample
 
-sample codes of Rust
+sample codes of Rust from the book
+
+https://doc.rust-lang.org/book/
