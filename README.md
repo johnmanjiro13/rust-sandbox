@@ -1,1 +1,1 @@
-# rust-sample
+# rust-samples
